@@ -25,6 +25,9 @@
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
+.text-center {
+  text-align: center;
+}
 .primary-btn:hover {
   background-color: lightskyblue;
 }
@@ -285,4 +288,202 @@
   line-height: 19.2px;
   border: 1px solid rgba(14, 14, 14, 1);
   border-radius: 4px;
+}
+/* recent news section styles */
+.recent-news {
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+}
+.recent-news-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+.recent-news-description {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.recen-news-card {
+  display: flex;
+  padding: 48px;
+  gap: 32px;
+  background-color: white;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+.container-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.satelite-img {
+  border-radius: 24px;
+  margin-bottom: 12px;
+}
+.container-details {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 12px;
+}
+.container-details2 {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.recent-news-btn {
+  padding: 13px 26px;
+  background-color: rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.recent-news-btn:hover {
+  background-color: lightskyblue;
+}
+/* donation section styles */
+.donate {
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+}
+.donations-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+}
+.donate-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+.donate-description {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.donation1,
+.donation3,
+.donation4 {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  cursor: pointer;
+}
+.donation1:hover {
+  background-color: rgba(198, 228, 214, 1);
+}
+.donation3:hover {
+  background-color: rgba(198, 228, 214, 1);
+}
+.donation4:hover {
+  background-color: rgba(198, 228, 214, 1);
+}
+.donation2 {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  cursor: pointer;
+}
+.donation-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+input[type="text"] {
+  width: 1032px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.3);
+  text-align: center;
+}
+/* subscribe section styles */
+.subscribe {
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-bottom: 80px;
+}
+.subscribe-container {
+  background-color: rgba(198, 228, 214, 1);
+  padding: 80px 265px;
+  border-radius: 24px;
+}
+.subscribe-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 16px;
+}
+.subscribe-description {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.subscription {
+  display: flex;
+  align-items: center;
+}
+.email {
+  width: 600px;
+  padding: 18px 40px;
+  line-height: 19.2px;
+  color: rgba(14, 14, 14, 0.3);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
+}
+.subscribe-btn {
+  padding: 17px 34px;
+  background-color: rgba(0, 106, 80, 1);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.subscribe-btn:hover {
+  background-color: lightskyblue;
+}
+.footer {
+  background-color: white;
+  padding: 50px 160px;
+}
+.footer-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 64px;
+}
+.footer-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
 }
